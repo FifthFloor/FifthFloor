@@ -1,0 +1,121 @@
+git init
+
+git status
+git add '*.txt'
+git commit -m 'un mensaje para el commit'
+
+git log
+
+git remote add origin git@github.com:camilogo1200/try_git.git
+
+#The push command tells Git where to put our commits when we're ready,
+#So let's push our local changes to our origin repo (on GitHub).
+#The name of our remote is origin and the default local branch name is master.
+#The -u tells Git to remember the parameters, so that next time we can simply 
+#run git push and Git will know what to do.
+
+git push -u origin master
+
+#Pulling Remotely
+#Let's pretend some time has passed. We've invited other people to our github 
+#project who have pulled your changes, made their own commits, and pushed them.
+#We can check for changes on our GitHub repository and pull down any new changes
+#by running:
+
+git pull origin master
+
+#Differences
+#Let's take a look at what is different from our last commit by using the git diff command
+
+git diff HEAD
+
+#Good, now go ahead and run git diff with the --staged option to see the changes you just staged.
+
+git diff --staged
+
+#You can unstage files by using the git reset command.
+#removing octodog from stage area
+
+git reset octofamily/octodog.txt
+
+#Files can be changed back to how they were at the last commit by using the command: 
+#git checkout -- <target>. 
+#take the next example from octocat
+
+git checkout --octocat.txt
+
+#Branching Out
+#When developers are working on a feature or bug they'll often create a copy (aka. branch)
+# of their code they can make separate commits to. Then when they're done they can merge this
+# branch back into their main master branch.
+#We want to remove all these pesky octocats, so let's create a branch called clean_up, 
+#where we'll do all the work:
+
+git branch clean_up
+
+#Switching Branches
+Great! Now if you type git branch you'll see two local branches: a main branch named master 
+#and your new branch named clean_up.
+#You can switch branches using the git checkout <branch> command. Try it now to switch to 
+#the clean_up branch:
+
+git checkout clean_up
+
+#Removing All The Things
+#Ok, so you're in the clean_up branch. You can finally remove all those pesky octocats by using the git 
+#rm command which will not only remove the actual files from disk, but will also stage the removal of the files for us.
+#You're going to want to use a wildcard again to get all the octocats in one sweep, go ahead and run:
+
+git rm '*.txt'
+
+#Commiting Branch Changes
+#Now that you've removed all the cats you'll need to commit your changes.
+#Feel free to run git status to check the changes you're about to commit.
+
+git commit -m "removing all the cats"
+
+#Switching Back to master
+#Great, you're almost finished with the cat... er the bug fix, you just need to switch 
+#back to the master branch so you can copy (or merge) your changes from the clean_up branch 
+#back into the master branch.
+#Go ahead and checkout the master branch:
+
+git checkout master
+
+#Preparing to Merge
+Alrighty, the moment has come when you have to merge your changes from the clean_up branch 
+#into the master branch. Take a deep breath, it's not that scary.
+#We're already on the master branch, so we just need to tell Git to merge the clean_up branch into it:
+
+git merge clean_up
+
+#Keeping Things Clean
+#Congratulations! You just accomplished your first successful bugfix and merge.
+# All that's left to do is clean up after yourself. Since you're done with the clean_up 
+#branch you don't need it anymore.
+#You can use git branch -d <branch name> to delete a branch.
+# Go ahead and delete the clean_up branch now:
+
+git branch -d clean_up
+
+#The Final Push
+#Here we are, at the last step. I'm proud that you've made it this far, 
+#and it's been great learning Git with you. All that's left for you to do now is
+# to push everything you've been working on to your remote repository, and you're done!
+
+git push
+
+
+
+$git config --global user.name "dana devops"
+$git config --global user.email "dana@gmal.com"
+
+Create first Repository
+
+$git init proyect1
+$cd project1
+//create file1.txt
+
+$git add file1.txt //not permanent mark the file to commit
+$git commit -m "my first commit"
+
