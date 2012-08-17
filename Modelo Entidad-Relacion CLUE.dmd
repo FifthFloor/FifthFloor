@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo Entidad-Relacion CLUE" id="89FC1A39-DB9B-4704-A1CB-1F824C1D96A1" version="3.5">
+<createdBy>Katherine</createdBy>
+<createdTime>2012-08-17 05:31:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo Entidad-Relacion CLUE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>89FC1A39-DB9B-4704-A1CB-1F824C1D96A1</designId>
+</OSDM_Design>

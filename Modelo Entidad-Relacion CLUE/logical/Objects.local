@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="584915BA-39D0-0D52-E71C-F911D52D2079" name="Inbox" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9E71D38C-A00D-DD8B-DD16-05F1FB094A2B" name="Message" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0B558172-40B7-A1E2-EEFF-54F268F1677A" name="MessageType" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F176BD65-77A1-7298-F49C-E0CA472E2989" name="Room" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6D1864CE-8879-B717-CBA6-8CBB2594E955" name="User" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6B13BC1A-50D7-AA49-1D0D-139788AE273A" name="friends" seqName="seg_0"/>
+   <object objectType="Relation" objectID="82D2D6B3-C58E-9206-248E-E1D3D1561F1F" name="inbox_message" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5167584B-E9F1-CF00-33F3-B312345137AF" name="message_messageType" seqName="seg_0"/>
+   <object objectType="Relation" objectID="36715AD2-14DF-C7E9-D8B4-02399BF8245D" name="user_inbox" seqName="seg_0"/>
+   <object objectType="Relation" objectID="324086BB-7699-D048-5567-E262D8D07028" name="user_room" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
