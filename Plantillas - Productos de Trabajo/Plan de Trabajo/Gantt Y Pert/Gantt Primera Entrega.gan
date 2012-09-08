@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Calendarización" company="Fifth Floor Corp." webLink="" view-date="2012-07-30" view-index="0" gantt-divider-location="1081" resource-divider-location="360" version="2.0">
+<project name="Calendarización" company="Fifth Floor Corp." webLink="" view-date="2012-07-30" view-index="0" gantt-divider-location="1149" resource-divider-location="360" version="2.0">
     <description/>
     <view zooming-state="default:2" id="gantt-chart"/>
     <view id="resource-table">
         <field id="0" name="Name" width="50" order="0"/>
-        <field id="1" name="Default role" width="49" order="1"/>
+        <field id="1" name="Default role" width="50" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -32,8 +32,8 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="41" name="PROYECTO: DO YOU FEAR DEATH?" color="#8cb6ce" meeting="false" start="2012-07-30" duration="6" complete="85" expand="true">
-            <task id="0" name="DEFINICIÓN DEL PROYECTO" color="#8cb6ce" meeting="false" start="2012-07-30" duration="6" complete="85" expand="true">
+        <task id="41" name="PROYECTO: DO YOU FEAR DEATH?" color="#8cb6ce" meeting="false" start="2012-07-27" duration="8" complete="85" expand="true">
+            <task id="0" name="DEFINICIÓN DEL PROYECTO" color="#8cb6ce" meeting="false" start="2012-07-27" duration="8" complete="85" expand="true">
                 <task id="1" name="Definición Reglas del equipo" color="#8cb6ce" meeting="false" start="2012-07-30" duration="6" complete="100" expand="true">
                     <task id="2" name="Lluvia de Ideas de reglas" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="100" expand="true">
                         <depend id="3" type="2" difference="0" hardness="Strong"/>
@@ -44,21 +44,47 @@
                     <task id="4" name="Constitución del Reglamento de Fifth Floor Corp." color="#8cb6ce" meeting="false" start="2012-08-01" duration="1" complete="100" expand="true"/>
                     <task id="5" name="Digitalización de Firmas" color="#8cb6ce" meeting="false" start="2012-08-03" duration="2" complete="100" expand="true"/>
                 </task>
-                <task id="17" name="Definición de Roles" color="#8cb6ce" meeting="false" start="2012-07-30" duration="6" complete="85" expand="true">
+                <task id="17" name="Definición de Roles" color="#8cb6ce" meeting="false" start="2012-07-30" duration="7" complete="85" expand="true">
                     <task id="18" name="Investigación de cada uno de los roles" color="#8cb6ce" meeting="false" start="2012-07-31" duration="4" complete="100" expand="true">
                         <depend id="19" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="19" name="Creación de Mapa Mental de Roles" color="#8cb6ce" meeting="false" start="2012-08-06" duration="1" complete="0" expand="true"/>
-                    <task id="21" name="Creación de Hojas de Vida de cada integrante" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="100" expand="true"/>
-                    <task id="22" name="Asignación de roles" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="100" expand="true"/>
+                    <task id="19" name="Creación de Mapa Mental de Roles" color="#8cb6ce" meeting="false" start="2012-08-06" duration="1" complete="0" expand="true">
+                        <depend id="22" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="21" name="Creación de Hojas de Vida de cada integrante" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="100" expand="true">
+                        <depend id="22" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="22" name="Asignación de roles" color="#8cb6ce" meeting="false" start="2012-08-07" duration="1" complete="100" expand="true"/>
                 </task>
-                <task id="23" name="Definición de Proyecto" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true">
-                    <task id="24" name="Propuestas para el proyecto del curso por cada uno de los integrantes" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+                <task id="23" name="Definición de Proyecto" color="#8cb6ce" meeting="false" start="2012-07-27" duration="3" complete="0" expand="true">
+                    <task id="24" name="Propuestas para el proyecto del curso por cada uno de los integrantes" color="#8cb6ce" meeting="false" start="2012-07-27" duration="1" complete="0" expand="true">
+                        <depend id="25" type="2" difference="0" hardness="Strong"/>
+                    </task>
                     <task id="25" name="Votación de cada propuesta" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
-                    <task id="26" name="Presentación para el curso" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
-                    <task id="27" name="Votación en el curso" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+                    <task id="26" name="Presentación para el curso" color="#8cb6ce" meeting="false" start="2012-07-31" duration="1" complete="0" expand="true">
+                        <depend id="27" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="27" name="Votación en el curso" color="#8cb6ce" meeting="false" start="2012-08-01" duration="1" complete="0" expand="true"/>
                 </task>
             </task>
+            <task id="42" name="DEFINIR LOS OBJETIVOS" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true">
+                <task id="74" name="Definir lo" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+                <task id="75" name="task_75" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+                <task id="76" name="task_76" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+                <task id="77" name="task_77" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="43" name="ENTRENAMIENTO" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="44" name="RIESGOS" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="45" name="ELABORACION SPMP" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="46" name="ELABORACIÓN CASOS DE USO" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="47" name="PRE-ENTREGA 1" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="48" name="PLANEACIÓN PARA LA ENTREGA 1" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="49" name="CORRECCIONES" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="51" name="REPORTE GERENCIAL" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="52" name="ENTREGA 1" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="53" name="PRESENTACIÓN" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="54" name="PLANEACIÓN PARA LA PRE-ENTREGA 2" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="55" name="FIN DE LA ITERACIÓN" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources>
@@ -85,46 +111,69 @@
         <allocation task-id="3" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="18" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="19" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="18" resource-id="6" function="2" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="6" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="6" function="2" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="13" function="3" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="13" function="3" responsible="false" load="100.0"/>
         <allocation task-id="2" resource-id="1" function="4" responsible="false" load="100.0"/>
         <allocation task-id="3" resource-id="1" function="4" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="1" function="4" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="4" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="2" function="0" responsible="false" load="100.0"/>
         <allocation task-id="3" resource-id="2" function="0" responsible="false" load="100.0"/>
         <allocation task-id="4" resource-id="2" function="0" responsible="true" load="100.0"/>
         <allocation task-id="18" resource-id="2" function="0" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="2" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="2" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="2" function="0" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="8" function="5" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="8" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="8" function="5" responsible="false" load="100.0"/>
         <allocation task-id="2" resource-id="3" function="7" responsible="false" load="100.0"/>
         <allocation task-id="3" resource-id="3" function="7" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="3" function="7" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="3" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="3" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="7" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="9" function="6" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="9" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="9" function="6" responsible="false" load="100.0"/>
         <allocation task-id="2" resource-id="4" function="1" responsible="false" load="100.0"/>
         <allocation task-id="3" resource-id="4" function="1" responsible="false" load="100.0"/>
         <allocation task-id="5" resource-id="4" function="1" responsible="true" load="100.0"/>
         <allocation task-id="19" resource-id="4" function="1" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="10" function="10" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <taskdisplaycolumns>
         <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd8" order="3" width="164" visible="true"/>
         <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd9" order="4" width="91" visible="true"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="678" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="78" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="66" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="550" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="99" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="89" visible="true"/>
+        <displaycolumn property-id="tpd8" order="3" width="271" visible="true"/>
+        <displaycolumn property-id="tpd9" order="4" width="121" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>

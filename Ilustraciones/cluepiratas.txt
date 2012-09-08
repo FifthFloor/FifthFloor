@@ -1,0 +1,25 @@
+LUGARES: 
+	Nueve lugares del holandes errante.
+	Cuarto de Davy Jones
+	timon
+	mastil principal
+	placha
+	y otros 5
+
+Armas:
+	espada
+	pistola
+	cuerda
+	bala de cañon
+	garfio
+	botella de ron
+
+Personajes:
+	Jack Sparrow
+	Will Turner
+	Capitan Barbossa
+	Calypso
+	Elizabeth Swam
+	lord Cutler
+	
+	
