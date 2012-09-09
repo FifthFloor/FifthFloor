@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Calendarización" company="Fifth Floor Corp." webLink="" view-date="2012-08-09" view-index="0" gantt-divider-location="608" resource-divider-location="360" version="2.0">
+<project name="Calendarización" company="Fifth Floor Corp." webLink="" view-date="2012-08-02" view-index="0" gantt-divider-location="380" resource-divider-location="360" version="2.0">
     <description/>
-    <view zooming-state="default:0" id="gantt-chart"/>
+    <view zooming-state="default:3" id="gantt-chart"/>
     <view id="resource-table">
         <field id="0" name="Name" width="50" order="0"/>
         <field id="1" name="Default role" width="50" order="1"/>
@@ -32,123 +32,201 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="41" name="PROYECTO: DO YOU FEAR DEATH?" color="#8cb6ce" meeting="false" start="2012-07-27" duration="19" complete="16" expand="true">
-            <task id="0" name="DEFINICIÓN DEL PROYECTO" color="#8cb6ce" meeting="false" start="2012-07-27" duration="6" complete="100" expand="true">
+        <task id="41" name="PROYECTO: DO YOU FEAR DEATH?" color="#8cb6ce" meeting="false" start="2012-07-27" duration="38" complete="49" expand="true">
+            <task id="0" name="DEFINICIÓN DEL PROYECTO" color="#330033" meeting="false" start="2012-07-27" duration="6" complete="100" expand="true">
                 <depend id="42" type="2" difference="0" hardness="Strong"/>
                 <depend id="47" type="2" difference="0" hardness="Strong"/>
                 <task id="17" name="Definición de Roles" color="#8cb6ce" meeting="false" start="2012-07-30" duration="5" complete="100" expand="true">
-                    <task id="18" name="Investigación de cada uno de los roles" color="#8cb6ce" meeting="false" start="2012-07-30" duration="3" complete="100" expand="true">
+                    <task id="18" name="Investigación de cada uno de los roles" color="#330033" meeting="false" start="2012-07-30" duration="3" complete="100" expand="true">
                         <depend id="19" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="19" name="Creación de Mapa Mental de Roles" color="#8cb6ce" meeting="false" start="2012-08-02" duration="1" complete="100" expand="true">
+                    <task id="19" name="Creación de Mapa Mental de Roles" color="#330033" meeting="false" start="2012-08-02" duration="1" complete="100" expand="true">
                         <depend id="22" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="21" name="Creación de Hojas de Vida de cada integrante" color="#8cb6ce" meeting="false" start="2012-07-31" duration="1" complete="100" expand="true">
+                    <task id="21" name="Creación de Hojas de Vida de cada integrante" color="#330033" meeting="false" start="2012-07-31" duration="1" complete="100" expand="true">
                         <depend id="22" type="2" difference="0" hardness="Strong"/>
+                        <depend id="153" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="22" name="Asignación de roles" color="#8cb6ce" meeting="false" start="2012-08-03" duration="1" complete="100" expand="true"/>
+                    <task id="22" name="Asignación de roles" color="#330033" meeting="false" start="2012-08-03" duration="1" complete="100" expand="true">
+                        <depend id="149" type="2" difference="0" hardness="Strong"/>
+                        <depend id="152" type="2" difference="0" hardness="Strong"/>
+                    </task>
                 </task>
                 <task id="1" name="Definición Reglas del equipo" color="#8cb6ce" meeting="false" start="2012-07-30" duration="3" complete="100" expand="true">
-                    <task id="2" name="Lluvia de Ideas de reglas" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="100" expand="true">
+                    <task id="2" name="Lluvia de Ideas de reglas" color="#330033" meeting="false" start="2012-07-30" duration="1" complete="100" expand="true">
                         <depend id="3" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="3" name="Discusión de la lluvia de ideas" color="#8cb6ce" meeting="false" start="2012-07-31" duration="1" complete="100" expand="true">
+                    <task id="3" name="Discusión de la lluvia de ideas" color="#330033" meeting="false" start="2012-07-31" duration="1" complete="100" expand="true">
                         <depend id="4" type="2" difference="0" hardness="Strong"/>
+                        <depend id="168" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="4" name="Constitución del Reglamento de Fifth Floor Corp." color="#8cb6ce" meeting="false" start="2012-08-01" duration="1" complete="100" expand="true"/>
-                    <task id="5" name="Digitalización de Firmas" color="#8cb6ce" meeting="false" start="2012-08-01" duration="1" complete="100" expand="true"/>
+                    <task id="4" name="Constitución del Reglamento de Fifth Floor Corp." color="#330033" meeting="false" start="2012-08-01" duration="1" complete="100" expand="true">
+                        <depend id="165" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="5" name="Digitalización de Firmas" color="#330033" meeting="false" start="2012-08-01" duration="1" complete="100" expand="true"/>
                 </task>
                 <task id="23" name="Definición de Proyecto" color="#8cb6ce" meeting="false" start="2012-07-27" duration="4" complete="100" expand="true">
-                    <task id="24" name="Propuestas para el proyecto del curso por cada uno de los integrantes" color="#8cb6ce" meeting="false" start="2012-07-27" duration="1" complete="100" expand="true">
+                    <task id="24" name="Propuestas para el proyecto del curso por cada uno de los integrantes" color="#330033" meeting="false" start="2012-07-27" duration="1" complete="100" expand="true">
                         <depend id="25" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="25" name="Votación de cada propuesta" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="100" expand="true"/>
-                    <task id="26" name="Presentación para el curso" color="#8cb6ce" meeting="false" start="2012-07-31" duration="1" complete="100" expand="true">
+                    <task id="25" name="Votación de cada propuesta" color="#330033" meeting="false" start="2012-07-30" duration="1" complete="100" expand="true"/>
+                    <task id="26" name="Presentación para el curso" color="#330033" meeting="false" start="2012-07-31" duration="1" complete="100" expand="true">
                         <depend id="27" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="27" name="Votación en el curso" color="#8cb6ce" meeting="false" start="2012-08-01" duration="1" complete="100" expand="true">
+                    <task id="27" name="Votación en el curso" color="#330033" meeting="false" start="2012-08-01" duration="1" complete="100" expand="true">
                         <depend id="74" type="2" difference="0" hardness="Strong"/>
                     </task>
                 </task>
             </task>
-            <task id="42" name="DEFINIR LOS OBJETIVOS" color="#8cb6ce" meeting="false" start="2012-08-06" duration="2" complete="0" expand="true">
+            <task id="42" name="DEFINIR LOS OBJETIVOS" color="#8cb6ce" meeting="false" start="2012-08-06" duration="2" complete="100" expand="true">
                 <depend id="43" type="2" difference="0" hardness="Strong"/>
                 <depend id="44" type="2" difference="0" hardness="Strong"/>
                 <depend id="47" type="2" difference="0" hardness="Strong"/>
-                <task id="74" name="Definir objetivos" color="#8cb6ce" meeting="false" start="2012-08-02" duration="2" complete="0" expand="true">
+                <task id="74" name="Definir objetivos" color="#330033" meeting="false" start="2012-08-02" duration="2" complete="100" expand="true">
                     <depend id="118" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="43" name="ENTRENAMIENTO" color="#8cb6ce" meeting="false" start="2012-08-08" duration="3" complete="0" expand="true">
+            <task id="43" name="ENTRENAMIENTO" color="#8cb6ce" meeting="false" start="2012-08-08" duration="3" complete="100" expand="true">
                 <depend id="45" type="2" difference="0" hardness="Strong"/>
                 <depend id="46" type="2" difference="0" hardness="Strong"/>
                 <depend id="47" type="2" difference="0" hardness="Strong"/>
-                <task id="97" name="Entrenamiento de GIT" color="#8cb6ce" meeting="false" start="2012-08-08" duration="3" complete="0" expand="true"/>
+                <task id="97" name="Entrenamiento de GIT" color="#330033" meeting="false" start="2012-08-08" duration="3" complete="100" expand="true"/>
             </task>
-            <task id="44" name="RIESGOS" color="#8cb6ce" meeting="false" start="2012-08-08" duration="4" complete="0" expand="true">
+            <task id="44" name="RIESGOS" color="#8cb6ce" meeting="false" start="2012-08-08" duration="4" complete="100" expand="true">
                 <depend id="45" type="2" difference="0" hardness="Strong"/>
                 <depend id="46" type="2" difference="0" hardness="Strong"/>
                 <depend id="47" type="2" difference="0" hardness="Strong"/>
-                <task id="118" name="Lluvia de Ideas de Riesgos" color="#8cb6ce" meeting="false" start="2012-08-06" duration="1" complete="0" expand="true">
+                <task id="118" name="Lluvia de Ideas de Riesgos" color="#006600" meeting="false" start="2012-08-06" duration="1" complete="100" expand="true">
                     <depend id="119" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="119" name="Evaluación de los Riesgos" color="#8cb6ce" meeting="false" start="2012-08-07" duration="1" complete="0" expand="true"/>
-                <task id="120" name="Definición Top 7 de Riesgos" color="#8cb6ce" meeting="false" start="2012-08-13" duration="1" complete="0" expand="true"/>
+                <task id="119" name="Evaluación de los Riesgos" color="#006600" meeting="false" start="2012-08-07" duration="1" complete="100" expand="true"/>
+                <task id="120" name="Definición Top 7 de Riesgos" color="#006600" meeting="false" start="2012-08-13" duration="1" complete="100" expand="true">
+                    <depend id="168" type="2" difference="0" hardness="Strong"/>
+                </task>
             </task>
-            <task id="45" name="ELABORACION SPMP" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true">
+            <task id="45" name="ELABORACION SPMP" color="#8cb6ce" meeting="false" start="2012-08-14" duration="11" complete="74" expand="true">
                 <depend id="47" type="2" difference="0" hardness="Strong"/>
-                <task id="141" name="Definición proposito y alcance" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="142" name="Definición restricciones y supuestos" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="143" name="Entregables del proyecto" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="144" name="Definición del Modelo de Ciclo de Vida" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="145" name="Plan de Infraestructura" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="146" name="Definición de métodos, herramientas y técnicas" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="147" name="Plan de aceptacion del producto" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="148" name="Definición de interfaces Externas" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="149" name="Definición de interfaces Internas" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="151" name="Plan de estimación" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="152" name="Plan de personal" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="153" name="Plan de entrenamiento del Personal" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="154" name="Plan de Actividades de Trabajo" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="155" name="Asignación de Calendario" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="156" name="Asignación de Recursos" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="157" name="Plan de control de Cambios" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="158" name="Plan de control de Calendario" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="162" name="Plan de Cierre del Proyecto" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="194" name="Entrega del Producto" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="165" name="Supervisión del Proyecto Y Ambiente de Trabajo" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="167" name="Definición Gestión de Decisión" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="168" name="Plan de riesgos" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="169" name="Plan de la administración de la configuración" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="171" name="Plan de Documentación" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="172" name="Plan de Comunicación" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="204" name="Revisiones Y Auditorias" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="205" name="Verificación Y Validación" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
-                <task id="207" name="Plan de Metricas" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
+                <task id="141" name="Definición proposito y alcance" color="#000066" meeting="false" start="2012-08-17" duration="1" complete="90" expand="true"/>
+                <task id="142" name="Definición restricciones y supuestos" color="#000066" meeting="false" start="2012-08-17" duration="1" complete="100" expand="true"/>
+                <task id="143" name="Entregables del proyecto" color="#000066" meeting="false" start="2012-08-17" duration="1" complete="100" expand="true">
+                    <depend id="162" type="2" difference="0" hardness="Strong"/>
+                    <depend id="194" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="259" name="Resumen de Calendario" color="#000066" meeting="false" start="2012-08-20" duration="1" complete="100" expand="false">
+                    <depend id="151" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="261" name="Evolución del Plan" color="#000066" meeting="false" start="2012-08-24" duration="1" complete="0" expand="false"/>
+                <task id="144" name="Definición del Modelo de Ciclo de Vida" color="#000066" meeting="false" start="2012-08-14" duration="4" complete="100" expand="true">
+                    <depend id="153" type="2" difference="0" hardness="Strong"/>
+                    <depend id="154" type="2" difference="0" hardness="Strong"/>
+                    <depend id="259" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="145" name="Plan de Infraestructura" color="#000066" meeting="false" start="2012-08-14" duration="2" complete="100" expand="true"/>
+                <task id="146" name="Definición de métodos, herramientas y técnicas" color="#000066" meeting="false" start="2012-08-14" duration="1" complete="50" expand="true"/>
+                <task id="147" name="Plan de aceptacion del producto" color="#000066" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true"/>
+                <task id="148" name="Definición de interfaces Externas" color="#000066" meeting="false" start="2012-08-14" duration="1" complete="80" expand="true">
+                    <depend id="172" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="149" name="Definición de interfaces Internas" color="#000066" meeting="false" start="2012-08-06" duration="1" complete="80" thirdDate="2012-09-14" thirdDate-constraint="0" expand="true">
+                    <depend id="172" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="151" name="Plan de estimación" color="#000066" meeting="false" start="2012-08-23" duration="1" complete="0" expand="true"/>
+                <task id="152" name="Plan de personal" color="#000066" meeting="false" start="2012-08-06" duration="1" complete="100" expand="true">
+                    <depend id="153" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="153" name="Plan de entrenamiento del Personal" color="#000066" meeting="false" start="2012-08-20" duration="1" complete="100" expand="true"/>
+                <task id="154" name="Plan de Actividades de Trabajo" color="#000066" meeting="false" start="2012-08-20" duration="3" complete="100" expand="true">
+                    <depend id="151" type="2" difference="0" hardness="Strong"/>
+                    <depend id="155" type="2" difference="0" hardness="Strong"/>
+                    <depend id="156" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="155" name="Asignación de Calendario" color="#000066" meeting="false" start="2012-08-23" duration="1" complete="100" expand="true"/>
+                <task id="156" name="Asignación de Recursos" color="#000066" meeting="false" start="2012-08-23" duration="1" complete="0" expand="true"/>
+                <task id="157" name="Plan de control de Cambios" color="#000066" meeting="false" start="2012-08-17" duration="1" complete="100" expand="true"/>
+                <task id="158" name="Plan de control de Calendario" color="#000066" meeting="false" start="2012-08-17" duration="1" complete="100" expand="true"/>
+                <task id="162" name="Plan de Cierre del Proyecto" color="#000066" meeting="false" start="2012-08-20" duration="1" complete="0" expand="true"/>
+                <task id="194" name="Entrega del Producto" color="#000066" meeting="false" start="2012-08-20" duration="1" complete="0" expand="true"/>
+                <task id="165" name="Supervisión del Proyecto Y Ambiente de Trabajo" color="#000066" meeting="false" start="2012-08-02" duration="2" complete="50" expand="true"/>
+                <task id="167" name="Definición Gestión de Decisión" color="#000066" meeting="false" start="2012-08-22" duration="2" complete="0" expand="true"/>
+                <task id="168" name="Plan de riesgos" color="#000066" meeting="false" start="2012-08-14" duration="1" complete="100" expand="true">
+                    <depend id="419" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="169" name="Plan de la administración de la configuración" color="#000066" meeting="false" start="2012-08-28" duration="1" complete="100" expand="true"/>
+                <task id="171" name="Plan de Documentación" color="#000066" meeting="false" start="2012-08-20" duration="1" complete="100" expand="true"/>
+                <task id="172" name="Plan de Comunicación" color="#000066" meeting="false" start="2012-08-15" duration="5" complete="100" expand="true"/>
+                <task id="204" name="Revisiones Y Auditorias" color="#000066" meeting="false" start="2012-08-14" duration="2" complete="100" expand="true">
+                    <depend id="207" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="205" name="Verificación Y Validación" color="#000066" meeting="false" start="2012-08-17" duration="1" complete="100" expand="true">
+                    <depend id="207" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="207" name="Plan de Metricas" color="#000066" meeting="false" start="2012-08-20" duration="1" complete="0" expand="true">
+                    <depend id="419" type="2" difference="0" hardness="Strong"/>
+                </task>
             </task>
-            <task id="46" name="ELABORACIÓN CASOS DE USO" color="#8cb6ce" meeting="false" start="2012-08-14" duration="1" complete="0" expand="true">
+            <task id="46" name="ELABORACIÓN CASOS DE USO" color="#8cb6ce" meeting="false" start="2012-08-14" duration="7" complete="22" expand="true">
                 <depend id="47" type="2" difference="0" hardness="Strong"/>
+                <task id="208" name="Reconocimiento de las reglas de CLUE" color="#8cb6ce" meeting="false" start="2012-08-14" duration="2" complete="100" expand="true">
+                    <depend id="213" type="2" difference="0" hardness="Strong"/>
+                    <task id="209" name="Leer y Entender Reglas CLUE" color="#000066" meeting="false" start="2012-08-14" duration="1" complete="100" expand="true">
+                        <depend id="211" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="211" name="Jugar CLUE" color="#000066" meeting="false" start="2012-08-15" duration="1" complete="100" expand="true"/>
+                </task>
+                <task id="213" name="Identificar Casos de Uso" color="#000066" meeting="false" start="2012-08-16" duration="1" complete="0" expand="true"/>
+                <task id="214" name="Creación Diagrama de Casos de Uso" color="#000066" meeting="false" start="2012-08-15" duration="3" complete="0" expand="true">
+                    <depend id="215" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="215" name="Documentación" color="#000066" meeting="false" start="2012-08-20" duration="3" complete="0" expand="true"/>
             </task>
-            <task id="47" name="PRE-ENTREGA 1" color="#8cb6ce" meeting="true" start="2012-08-15" duration="1" complete="0" priority="2" expand="true">
+            <task id="47" name="PRE-ENTREGA 1" color="#8cb6ce" meeting="true" start="2012-08-29" duration="4" complete="0" priority="2" expand="true">
                 <depend id="48" type="2" difference="0" hardness="Strong"/>
                 <depend id="49" type="2" difference="0" hardness="Strong"/>
+                <task id="212" name="Reunir los documentos" color="#000066" meeting="false" start="2012-08-29" duration="1" complete="0" expand="true">
+                    <depend id="216" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="216" name="Revisar el entregable a entregar" color="#000066" meeting="false" start="2012-08-30" duration="1" complete="0" expand="true">
+                    <depend id="217" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="217" name="Entregar CD" color="#000066" meeting="false" start="2012-08-31" duration="1" complete="0" expand="true">
+                    <depend id="218" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="218" name="Auditoria" color="#000066" meeting="false" start="2012-09-03" duration="1" complete="0" priority="2" expand="true"/>
             </task>
-            <task id="48" name="PLANEACIÓN PARA LA ENTREGA 1" color="#8cb6ce" meeting="false" start="2012-08-16" duration="1" complete="0" expand="true">
+            <task id="48" name="PLANEACIÓN PARA LA ENTREGA 1" color="#ff6600" meeting="false" start="2012-09-04" duration="1" complete="0" expand="true">
                 <depend id="49" type="2" difference="0" hardness="Strong"/>
+                <depend id="393" type="2" difference="0" hardness="Strong"/>
+                <depend id="394" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="49" name="CORRECCIONES" color="#8cb6ce" meeting="false" start="2012-08-17" duration="1" complete="0" expand="true">
+            <task id="49" name="CORRECCIONES" color="#8cb6ce" meeting="false" start="2012-09-05" duration="3" complete="0" expand="true">
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
+                <task id="393" name="Corrección SPMP" color="#000066" meeting="false" start="2012-09-05" duration="3" complete="0" expand="true"/>
+                <task id="394" name="Corrección Casos de Uso" color="#000066" meeting="false" start="2012-09-05" duration="3" complete="0" expand="true"/>
             </task>
-            <task id="51" name="REPORTE GERENCIAL" color="#8cb6ce" meeting="false" start="2012-08-20" duration="1" complete="0" expand="true">
+            <task id="51" name="REPORTE GERENCIAL" color="#8cb6ce" meeting="false" start="2012-09-10" duration="1" complete="0" expand="true">
                 <depend id="52" type="2" difference="0" hardness="Strong"/>
-                <depend id="53" type="2" difference="0" hardness="Strong"/>
+                <depend id="53" type="3" difference="0" hardness="Strong"/>
+                <task id="419" name="Analizar métricas, riesgos y resultados" color="#000066" meeting="false" start="2012-09-10" duration="1" complete="0" expand="true"/>
+                <task id="420" name="Realizar el reporte gerencial" color="#000066" meeting="false" start="2012-09-10" duration="1" complete="0" expand="true"/>
             </task>
-            <task id="52" name="ENTREGA 1" color="#8cb6ce" meeting="true" start="2012-08-21" duration="1" complete="0" priority="4" expand="true">
-                <depend id="53" type="2" difference="0" hardness="Strong"/>
+            <task id="52" name="ENTREGA 1" color="#8cb6ce" meeting="true" start="2012-09-11" duration="1" complete="0" priority="4" expand="true">
+                <depend id="53" type="3" difference="0" hardness="Strong"/>
+                <depend id="55" type="2" difference="0" hardness="Strong"/>
+                <task id="389" name="Reunir los documentos finales" color="#000066" meeting="false" start="2012-09-11" duration="1" complete="0" expand="false"/>
+                <task id="388" name="Revisar los documentos finales" color="#000066" meeting="false" start="2012-09-11" duration="1" complete="0" expand="false"/>
+                <task id="387" name="Entregar CD" color="#000066" meeting="false" start="2012-09-11" duration="1" complete="0" expand="false"/>
             </task>
-            <task id="53" name="PRESENTACIÓN" color="#8cb6ce" meeting="false" start="2012-08-22" duration="1" complete="0" expand="true"/>
-            <task id="55" name="FIN DE LA ITERACIÓN" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
-            <task id="54" name="PLANEACIÓN PARA LA PRE-ENTREGA 2" color="#8cb6ce" meeting="false" start="2012-07-30" duration="1" complete="0" expand="true"/>
+            <task id="53" name="PRESENTACIÓN" color="#8cb6ce" meeting="false" start="2012-09-11" duration="1" complete="0" expand="true">
+                <depend id="55" type="2" difference="0" hardness="Strong"/>
+                <task id="384" name="Escojer planes para recalcar" color="#000066" meeting="false" start="2012-09-11" duration="1" complete="0" expand="true"/>
+                <task id="385" name="Analisis de Metricas, Riesgos Y Resultados" color="#000066" meeting="false" start="2012-09-11" duration="1" complete="0" expand="true"/>
+                <task id="386" name="Preparar la exposición" color="#000066" meeting="false" start="2012-09-11" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="55" name="FIN DE LA ITERACIÓN" color="#ff6600" meeting="false" start="2012-09-12" duration="1" complete="0" expand="true">
+                <task id="440" name="Identificar fortalezas y debilidades" color="#ff6600" meeting="false" start="2012-09-12" duration="1" complete="0" expand="true"/>
+                <task id="441" name="Retroalimentaciones personales" color="#ff6600" meeting="false" start="2012-09-12" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="54" name="PLANEACIÓN PARA LA PRE-ENTREGA 2" color="#ff6600" meeting="false" start="2012-09-17" duration="2" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources>
@@ -203,16 +281,34 @@
         <allocation task-id="204" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="205" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="207" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="216" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="209" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="211" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="214" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="259" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="261" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="388" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="393" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="394" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="419" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="384" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="385" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="386" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="440" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="441" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="18" resource-id="6" function="2" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="6" function="2" responsible="false" load="100.0"/>
         <allocation task-id="22" resource-id="6" function="2" responsible="false" load="100.0"/>
         <allocation task-id="154" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="167" resource-id="6" function="3" responsible="false" load="100.0"/>
         <allocation task-id="172" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="215" resource-id="6" function="3" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="13" function="3" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="13" function="3" responsible="false" load="100.0"/>
         <allocation task-id="22" resource-id="13" function="3" responsible="false" load="100.0"/>
         <allocation task-id="165" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="213" resource-id="13" function="3" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="3" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="1" function="4" responsible="false" load="100.0"/>
@@ -227,6 +323,12 @@
         <allocation task-id="146" resource-id="1" function="4" responsible="true" load="100.0"/>
         <allocation task-id="153" resource-id="1" function="4" responsible="true" load="100.0"/>
         <allocation task-id="153" resource-id="1" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="211" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="213" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="214" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="215" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="393" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="394" resource-id="1" function="4" responsible="false" load="100.0"/>
         <allocation task-id="2" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="3" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="4" resource-id="2" function="0" responsible="true" load="100.0"/>
@@ -244,6 +346,13 @@
         <allocation task-id="172" resource-id="2" function="0" responsible="true" load="100.0"/>
         <allocation task-id="204" resource-id="2" function="0" responsible="false" load="100.0"/>
         <allocation task-id="205" resource-id="2" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="217" resource-id="2" function="0" responsible="true" load="100.0"/>
+        <allocation task-id="212" resource-id="2" function="0" responsible="true" load="100.0"/>
+        <allocation task-id="211" resource-id="2" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="387" resource-id="2" function="0" responsible="true" load="100.0"/>
+        <allocation task-id="389" resource-id="2" function="0" responsible="true" load="100.0"/>
+        <allocation task-id="393" resource-id="2" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="394" resource-id="2" function="0" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="8" function="5" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="8" function="5" responsible="false" load="100.0"/>
         <allocation task-id="22" resource-id="8" function="5" responsible="false" load="100.0"/>
@@ -259,6 +368,10 @@
         <allocation task-id="158" resource-id="3" function="7" responsible="false" load="100.0"/>
         <allocation task-id="169" resource-id="3" function="7" responsible="true" load="100.0"/>
         <allocation task-id="207" resource-id="3" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="211" resource-id="3" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="215" resource-id="3" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="393" resource-id="3" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="394" resource-id="3" function="7" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="9" function="6" responsible="false" load="100.0"/>
         <allocation task-id="19" resource-id="9" function="6" responsible="false" load="100.0"/>
         <allocation task-id="22" resource-id="9" function="6" responsible="false" load="100.0"/>
@@ -276,7 +389,13 @@
         <allocation task-id="147" resource-id="4" function="1" responsible="false" load="100.0"/>
         <allocation task-id="162" resource-id="4" function="1" responsible="false" load="100.0"/>
         <allocation task-id="194" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="211" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="215" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="261" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="393" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="394" resource-id="4" function="1" responsible="false" load="100.0"/>
         <allocation task-id="27" resource-id="10" function="10" responsible="true" load="100.0"/>
+        <allocation task-id="218" resource-id="10" function="9" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <taskdisplaycolumns>
@@ -286,11 +405,11 @@
         <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="276" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="56" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="51" visible="true"/>
-        <displaycolumn property-id="tpd8" order="3" width="140" visible="true"/>
-        <displaycolumn property-id="tpd9" order="4" width="66" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="142" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="48" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="47" visible="true"/>
+        <displaycolumn property-id="tpd8" order="3" width="83" visible="true"/>
+        <displaycolumn property-id="tpd9" order="4" width="41" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
