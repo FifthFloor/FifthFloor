@@ -1,0 +1,42 @@
+//  MM""""""""`M oo .8888b   dP   dP       
+//  MM  mmmmmmmM    88   "   88   88       
+//  M'      MMMM dP 88aaa  d8888P 88d888b. 
+//  MM  MMMMMMMM 88 88       88   88'  `88 
+//  MM  MMMMMMMM 88 88       88   88    88 
+//  MM  MMMMMMMM dP dP       dP   dP    dP 
+//  MMMMMMMMMMMM                           
+//                                             
+//  MM""""""""`M dP                            
+//  MM  mmmmmmmM 88                            
+//  M'      MMMM 88 .d8888b. .d8888b. 88d888b. 
+//  MM  MMMMMMMM 88 88'  `88 88'  `88 88'  `88 
+//  MM  MMMMMMMM 88 88.  .88 88.  .88 88       
+//  MM  MMMMMMMM dP `88888P' `88888P' dP       
+//  MMMMMMMMMMMM                               
+//                                            
+//  MM'""""'YMM                               
+//  M' .mmm. `M                               
+//  M  MMMMMooM .d8888b. 88d888b. 88d888b.    
+//  M  MMMMMMMM 88'  `88 88'  `88 88'  `88    
+//  M. `MMM' .M 88.  .88 88       88.  .88 dP 
+//  MM.     .dM `88888P' dP       88Y888P' 88 
+//  MMMMMMMMMMM                   88          
+//                                dP          
+//
+// Fecha de Creacion ej: (21/11/1988)
+// nombre completo del Autor ej: Kevin D. Mitnick
+// Nombre de la clase: ej: Foo
+// Version ej: V 1.1
+// Descripcion :(objetivo de la clase) ej: la clase "Foo" es una clase de ejemplo.
+// Funcionalidades que implementa ej:
+// "Foo" devuelve atributos de foo
+//
+//
+
+
+
+
+
+
+
+

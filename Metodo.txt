@@ -1,0 +1,31 @@
+//
+// Fecha de Creacion ej: (21/11/1988)
+// Autor ej: Kevin D. Mitnick
+// Descripcion de parametros ej:
+// ****************************************
+// 	Descripcion de Parametros
+// ****************************************
+// param1 : es el parametro 1 que tiene la informacion "foo"
+// param2 : tiene la informacion que se relacion con param1
+// param3 : parametro 3
+//   .
+//   .
+//   .
+// ****************************************
+// Version del metodo ej: V 1.1
+// Funcionalidad que implementa ej:
+// "myNewMethod" devuelve el calculo de "foo"
+// Descripcion :(objetivo del metodo) ej: "myNewMethod" es un nuevo metodo :D.
+
+
+// (Si existe modificacion o arreglos del metodo se agrega lo siguiente) 
+// ((FIXME,TODO, HACKME, etc))
+// ****************************************
+// 	Modificacion
+// ****************************************
+// Fecha de modificacion ej:(11/21/2012) 
+// Descripcion de modificacion: 
+// Autor de modificacion: ej:John Draper
+// Version Modificada: V 1.0
+// ****************************************
+
