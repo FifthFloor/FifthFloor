@@ -1,0 +1,61 @@
+using UnityEngine;
+using System.Collections;
+
+public class ServerSettings : MonoBehaviour {
+
+    //GUI Variables
+    public GUISkin myskin;
+    public int windowWidth = 388;
+    public int windowHeight = 143;
+    private UnityEngine.Rect mainWindow;
+    private int horizontalCenter;
+    private int verticalCenter;
+    private bool hideWindow = true;
+    private Vector2 serverScroll = Vector2.zero;
+
+    //relationships
+    private ServerMenu menuServer;
+
+
+	// Use this for initialization
+	void Start () {
+        menuServer = (ServerMenu)GetComponent("ServerMenu");
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+
+    void OnGUI()
+    {
+        if (!hideWindow)
+        {
+            horizontalCenter = (int)(((Screen.width / 2) - (windowWidth / 2)));
+            verticalCenter = (int)((Screen.height / 2) - (windowHeight / 2));
+            mainWindow = new Rect(horizontalCenter, verticalCenter, windowWidth, windowHeight);
+            GUI.Window(1, mainWindow, getMainWindow, "Adicionar Servidor");
+        }
+    }
+
+
+    void getMainWindow(int idWindow)
+    {
+        GUILayout.BeginVertical("box");
+
+
+        GUILayout.EndVertical();
+    }
+
+    public void show()
+    {
+        hideWindow = false;
+    }
+
+
+    public void hide()
+    {
+        hideWindow = true;
+    }
+
+}
