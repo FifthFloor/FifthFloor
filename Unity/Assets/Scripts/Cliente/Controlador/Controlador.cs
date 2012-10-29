@@ -39,8 +39,8 @@ namespace Controlador
 		
         public bool desconectarDeServidor()
         {
-            cliente.desconectar();
-            return false;
+            return cliente.desconectar();
+           
         }
 
         public bool moverJugador()

@@ -75,11 +75,14 @@ namespace Mundo
             return false;
         }
 
-        //
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public bool desconectar()
         {
             Network.Disconnect();
-            return true;
+            return (Network.peerType == NetworkPeerType.Disconnected);
         }
 
         public bool salirAplicacion() 

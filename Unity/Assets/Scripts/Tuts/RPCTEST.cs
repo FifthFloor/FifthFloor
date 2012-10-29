@@ -14,19 +14,18 @@ public class RPCTEST : MonoBehaviour {
 	}
     
     
-    [RPC]
+    
      void makeSphere() {
 
-        Instantiate(objeto, transform.position, transform.rotation);
+        Network.Instantiate(objeto, transform.position, transform.rotation,0);
     }
 
     void OnGUI() {
 
         if (GUILayout.Button("sphere")) 
         {
-            networkView.RPC("makeSphere",RPCMode.Server);
-           
-        
+          //  networkView.RPC("makeSphere",RPCMode.Others);
+            makeSphere();
         }
     }
 }

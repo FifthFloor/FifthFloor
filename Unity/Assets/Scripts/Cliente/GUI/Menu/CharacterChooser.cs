@@ -21,11 +21,12 @@ public class CharacterChooser : MonoBehaviour
     public Texture2D character2;
     public Texture2D character3;
     public Texture2D character4;
-
+    private Controlador.Control control;
 
     // Use this for initialization
     void Start()
     {
+        control = Controlador.Control.getControlador();
       //  portNumber = System.Convert.ToString(control.getPort());
        // informationText = "Conexiones con Clientes : " + Network.connections + "\n";
     }
@@ -47,6 +48,16 @@ public class CharacterChooser : MonoBehaviour
             verticalCenter = (int)((Screen.height / 2) - (windowHeight / 2));
             mainWindow = new Rect(horizontalCenter, verticalCenter, windowWidth, windowHeight);
             GUI.Window(1, mainWindow, getMainWindow, "Selección de Jugador");
+
+            if (GUI.Button(new Rect(Screen.width - 150, Screen.height - 70, 150, 70), "Desconectar de Servidor"))
+            {
+                if (control.desconectarDeServidor()) { 
+               
+                    //TODO mostrar pantalla de abandono de partida
+                
+                }
+            }
+
         }
     }
 

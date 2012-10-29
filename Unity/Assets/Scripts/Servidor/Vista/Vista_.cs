@@ -90,6 +90,10 @@ using System.Collections;
             hide();
             vc.show();
         }
+        
+       if( GUILayout.Button("Ver Scenario") ){
+           Application.LoadLevel("RPCTest");
+       }
         if(GUILayout.Button("Salir"))
         {
             Application.Quit();
