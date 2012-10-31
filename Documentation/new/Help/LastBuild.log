@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.8.0.3" projectFile="D:\FifthFloor\Documentation\new\CLUE.shfbproj" started="30/10/2012  07:46:47 p.m.">
+<buildStep step="Initializing">
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+</buildStep>
+<buildStep step="FindingTools">
+Finding tools...
+Searching for Sandcastle tools...
+Found Sandcastle tools in 'C:\Program Files (x86)\Sandcastle\'
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in 'C:\Program Files (x86)\HTML Help Workshop\'
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\FifthFloor\Unity\Assembly-UnityScript-vs.unityproj
+    Found project 'D:\FifthFloor\Unity\Assembly-UnityScript-vs.unityproj'
+
+Parsing project files
+    Last step completed in 00:00:00.0170
+</buildStep>
+<buildStep step="Failed">
+
+SHFB: Error BE0040: Project assembly does not exist: D:\FifthFloor\Unity\Temp\bin\Release\Assembly-UnityScript.dll
+
+</buildStep>
+</shfbBuild>

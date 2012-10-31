@@ -1,13 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cliente\GUI\Menu\CharacterChooser.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cliente\GUI\Menu\ServerEditSettings.cs">
     <Files>
-      <File FileName="Assets\Scripts\Tuts\RPCTEST.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Cliente\GUI\Menu\CharacterChooser.cs" Line="23" Column="33" />
+      <File FileName="Assets\Scripts\Cliente\GUI\Menu\ServerEditSettings.cs" Line="66" Column="15" />
+      <File FileName="Assets\Scripts\Cliente\GUI\Menu\ServerMenu.cs" Line="22" Column="2" />
+      <File FileName="d:\FifthFloor\Unity\Assets\Scripts\TemplateGUI.cs" Line="59" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="D:\FifthFloor\Unity\Assets\Scripts\Cliente\Mundo\Cliente.cs" line="216" />
+      <Breakpoint enabled="false" file="D:\FifthFloor\Unity\Assets\Scripts\Cliente\Mundo\Cliente.cs" line="77" />
+      <Breakpoint enabled="false" file="D:\FifthFloor\Unity\Assets\Scripts\Cliente\Mundo\Cliente.cs" line="98" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -47,6 +47,7 @@
      <Compile Include="Assets\Scripts\Cliente\Controlador\Controlador.cs" />
      <Compile Include="Assets\Scripts\Cliente\GUI\Menu\CharacterChooser.cs" />
      <Compile Include="Assets\Scripts\Cliente\GUI\Menu\Menu.cs" />
+     <Compile Include="Assets\Scripts\Cliente\GUI\Menu\ServerEditSettings.cs" />
      <Compile Include="Assets\Scripts\Cliente\GUI\Menu\ServerMenu.cs" />
      <Compile Include="Assets\Scripts\Cliente\GUI\Menu\ServerSettings.cs" />
      <Compile Include="Assets\Scripts\Cliente\GUI\Menu\Settings.cs" />
@@ -64,6 +65,7 @@
      <Compile Include="Assets\Scripts\Servidor\Mundo\Servidor.cs" />
      <Compile Include="Assets\Scripts\Servidor\Vista\VistaClientes.cs" />
      <Compile Include="Assets\Scripts\Servidor\Vista\Vista_.cs" />
+     <Compile Include="Assets\Scripts\TemplateGUI.cs" />
      <Compile Include="Assets\Scripts\Tuts\Main_Menu.cs" />
      <Compile Include="Assets\Scripts\Tuts\RPCTEST.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />

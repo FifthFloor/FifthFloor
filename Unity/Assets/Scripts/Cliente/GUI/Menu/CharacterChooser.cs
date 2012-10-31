@@ -51,7 +51,7 @@ public class CharacterChooser : MonoBehaviour
 
             if (GUI.Button(new Rect(Screen.width - 150, Screen.height - 70, 150, 70), "Desconectar de Servidor"))
             {
-                if (control.desconectarDeServidor()) { 
+                if (control.disconnect()) { 
                
                     //TODO mostrar pantalla de abandono de partida
                 
