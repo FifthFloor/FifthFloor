@@ -15,14 +15,17 @@ public class ServerEditSettings : MonoBehaviour
     private int verticalCenter;
     public GUISkin myskin;
     private bool hideWindow = true;
-    public int selGridInt = 0;
-	public string[] selStrings = new string[] {};
+    private int selGridInt = 0;
+	private string[] selStrings = new string[] {};
+	
 	
 	//relationships
 	private Control control = null;
 	private ServerMenu menu = null;
 	
+	
 	//
+	
 	
 	// Use this for initialization
 	void Start () {

@@ -18,8 +18,9 @@ public class ServerMenu : MonoBehaviour
 	private Vector2 serverScroll = Vector2.zero;
         
 	//relationships
-	private Menu menu;
+	private ServerEditSettings smenu;
 	private Control control = null;
+	private Menu menu = null;
 
 	//vars
 	private string nicknameText = "";
@@ -29,7 +30,7 @@ public class ServerMenu : MonoBehaviour
 	void Awake ()
 	{
 		control = Control.getControlador ();
-		menu = (Menu)GetComponent ("Menu");
+		menu = (Menu)GetComponent ( typeof(Menu) );
 
 	}
 
@@ -52,8 +53,8 @@ public class ServerMenu : MonoBehaviour
 			GUI.skin = myskin;
 			//Settings
               
-			if (GUI.Button (new Rect (Screen.width - 140, 0, 140, 45), "Opciones")) {
-				Settings setting = (Settings)GetComponent ("Settings");
+			if ( GUI.Button (new Rect (Screen.width - 140, 0, 140, 45), "Opciones") ) {
+				Settings setting = (Settings)GetComponent (typeof(Settings));
 				hide ();
 				setting.show ();
 			}
@@ -61,8 +62,7 @@ public class ServerMenu : MonoBehaviour
 
 				GUI.Label (new Rect (0, 0, 150, 45), "Bienvenido " + menu.getNickname ());
 			} else {
-				menu = (Menu)GetComponent ("Menu");
-
+				menu = (Menu)GetComponent ( typeof(Menu) );
 			}
 			
 			horizontalCenter = (int)(((Screen.width / 2) - (windowWidth / 2)));
@@ -100,32 +100,30 @@ public class ServerMenu : MonoBehaviour
 		GUILayout.BeginHorizontal ("box");
 
 
-
 		if (selStrings.Length > 0) {
 			if (GUILayout.Button ("Conectar")) {
 				string aliasServer = selStrings [selGridInt];
 				if (control.connectToServer (aliasServer)) {
-					CharacterChooser c = (CharacterChooser)GetComponent ("CharacterChooser");
+					CharacterChooser c = (CharacterChooser)GetComponent (typeof(CharacterChooser));
 					hide ();
 					c.show ();
 				}
 			}
-
-
 			if (GUILayout.Button ("Editar Lista")) {
-				ServerEditSettings serverMenu = (ServerEditSettings)GetComponent (typeof(ServerEditSettings));
-			}
-
-		} else {
-			if (GUILayout.Button ("Añadir Servidor")) {
-				ServerSettings serverMenu = (ServerSettings)GetComponent ("ServerSettings");
+				smenu = (ServerEditSettings)GetComponent ( typeof(ServerEditSettings) );
 				hide ();
-				serverMenu.show ();
+				smenu.show ();
+			}
+		} else {
+			if (GUILayout.Button ("Añadir Servidor")){
+				smenu = (ServerEditSettings)GetComponent ( typeof(ServerEditSettings) );
+				hide ();
+				smenu.show ();
 			}
 		}
 
 		if (GUILayout.Button ("Atras")) {
-			Menu m = (Menu)GetComponent ("Menu");
+			Menu m = (Menu)GetComponent (typeof(Menu));
 			hide ();
 			m.show ();
 		}
@@ -143,9 +141,8 @@ public class ServerMenu : MonoBehaviour
 	{
 		hideWindow = true;
 	}
-
-	public void loadServers ()
-	{
-    
-	}
+    public void OnDisconnectedFromServer(NetworkDisconnection info)
+    {
+        control.OnDisconnectedFromServer(info);
+    }
 }

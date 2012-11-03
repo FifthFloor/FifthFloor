@@ -98,11 +98,11 @@ namespace Mundo
 			networkError = Network.Connect (ip, port);
 			if (networkError == NetworkConnectionError.NoError) {
 				//TODO revisar si no hay conexion a servidor donde va este script
-				GameObject[] objects = FindObjectsOfType (typeof(GameObject)) as GameObject[];
+			//	GameObject[] objects = FindObjectsOfType (typeof(GameObject)) as GameObject[];
 
-				foreach (GameObject g in objects) {
-					g.SendMessage ("OnNetworkLoadedlevel", SendMessageOptions.DontRequireReceiver);
-				}
+			//	foreach (GameObject g in objects) {
+			//		g.SendMessage ("OnNetworkLoadedlevel", SendMessageOptions.DontRequireReceiver);
+			//	}
 				return true;
 			}
 			
@@ -225,6 +225,15 @@ namespace Mundo
 			
 			return servers;
 		}
+        /// <summary>
+        /// Called on client during disconnection from server, but also on the server when the connection has disconnected.
+        ///When called on the client the connection was lost or you disconnected from the server. The NetworkDisconnection enum will indicate if the connection was cleanly disconnected or if the connection was lost. When called on the server the connection has successfully disconnected (after a call to Network.Disconnect). 
+        /// </summary>
+        /// <param name="info"> The reason a disconnect event occured, like in OnDisconnectedFromServer.</param>
+        public void OnDisconnectedFromServer(NetworkDisconnection info)
+        {
+            //TODO evento en el log
+        }
 
 	}
 }

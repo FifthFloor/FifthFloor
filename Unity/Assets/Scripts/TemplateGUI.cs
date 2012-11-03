@@ -16,7 +16,8 @@ public class TemplateGUI : MonoBehaviour
 	void Start () {
        
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () {
 	
@@ -39,7 +40,8 @@ public class TemplateGUI : MonoBehaviour
         
         GUILayout.BeginVertical("box");
            
-         
+         //your code here
+
         GUILayout.EndVertical();
 
     }

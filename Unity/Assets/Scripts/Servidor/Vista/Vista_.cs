@@ -115,5 +115,19 @@ using System.Collections;
         {
             hideWindow = true;
         }
+	
+		public void OnConnectedToServer(){
+			control.OnConnectedToServer();
+		} 
+	
+		public void OnServerInitialized(){
+			control.OnServerInitialized();
+		}
+
+        void OnDisconnectedFromServer(NetworkDisconnection info)
+        {
+            control.OnDisconnectedFromServer(info);
+        }
+	
 
     }

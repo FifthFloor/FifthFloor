@@ -14,6 +14,11 @@ namespace Mundo
         private int port = 0;
         private bool NAT = false;
         private bool onGame = false;
+		/// <summary>
+		/// The file that contains all information about events on server.
+		/// </summary>
+		private string fileLogServer = "data\\Events.Clue";
+
 
         public Servidor() 
         {
@@ -109,5 +114,27 @@ namespace Mundo
         {
             return onGame;
         }
+
+        /// <summary>
+        /// Called on the client when you have successfully connected to a server
+        /// </summary>
+		public void OnConnectedToServer ()
+		{
+			GameObject[] objects = FindObjectsOfType(typeof(GameObject)) as GameObject[];
+
+            foreach(GameObject g in objects)
+            {
+                g.SendMessage("OnNetworkLoadedlevel", SendMessageOptions.DontRequireReceiver);
+            }
+		}
+        /// <summary>
+        /// Called on the server whenever a Network.InitializeServer was invoked and has completed.
+        /// </summary>
+		public void OnServerInitialized ()
+		{
+			//TODO evento en el log 
+		}
+
+      
     }
 }

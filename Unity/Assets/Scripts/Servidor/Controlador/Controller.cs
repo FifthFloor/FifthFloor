@@ -58,5 +58,20 @@ namespace Controlador
         {
             return server.isOnGame();
         }
+
+		public void OnConnectedToServer ()
+		{
+			server.OnConnectedToServer();
+		}
+
+		public void OnServerInitialized ()
+		{
+			server.OnServerInitialized();
+		}
+
+        internal void OnDisconnectedFromServer(UnityEngine.NetworkDisconnection info)
+        {
+            server.OnDisconnectedFromServer(info);
+        }
     }
 }

@@ -140,6 +140,11 @@ namespace Controlador
 			return r;
 		}
 
+        public void OnDisconnectedFromServer(NetworkDisconnection info)
+        {
+            cliente.OnDisconnectedFromServer(info);
+        }
+
      
     }
 }
