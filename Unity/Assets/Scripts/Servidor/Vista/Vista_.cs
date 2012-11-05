@@ -124,10 +124,7 @@ using System.Collections;
 			control.OnServerInitialized();
 		}
 
-        void OnDisconnectedFromServer(NetworkDisconnection info)
-        {
-            control.OnDisconnectedFromServer(info);
-        }
+    
 	
 
     }

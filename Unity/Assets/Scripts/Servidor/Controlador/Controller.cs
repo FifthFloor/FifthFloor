@@ -69,9 +69,6 @@ namespace Controlador
 			server.OnServerInitialized();
 		}
 
-        internal void OnDisconnectedFromServer(UnityEngine.NetworkDisconnection info)
-        {
-            server.OnDisconnectedFromServer(info);
-        }
+      
     }
 }

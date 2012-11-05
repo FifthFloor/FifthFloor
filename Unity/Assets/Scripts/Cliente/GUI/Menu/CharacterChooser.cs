@@ -24,6 +24,9 @@ public class CharacterChooser : MonoBehaviour
     private Controlador.Control control;
 
     // Use this for initialization
+    void Awake() {
+        
+    }
     void Start()
     {
         control = Controlador.Control.getControlador();
@@ -76,8 +79,9 @@ public class CharacterChooser : MonoBehaviour
         GUILayout.BeginHorizontal();
         if (GUILayout.Button("Aceptar")) 
         {
-            //TODO controlador y mundo de cargar el nivel
+           
             Application.LoadLevel("RPCTest");
+            
         }
         if(GUILayout.Button("Atras"))
         {

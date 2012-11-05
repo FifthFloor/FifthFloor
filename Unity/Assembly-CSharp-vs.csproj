@@ -55,6 +55,8 @@
      <Compile Include="Assets\Scripts\Cliente\Mundo\ClueException.cs" />
      <Compile Include="Assets\Scripts\Cliente\Mundo\Server.cs" />
      <Compile Include="Assets\Scripts\Cliente\Settings\GlobalSettings.cs" />
+     <Compile Include="Assets\Scripts\Components\Camera_Dices.cs" />
+     <Compile Include="Assets\Scripts\Components\Dices\Dices.cs" />
      <Compile Include="Assets\Scripts\Components\Light\Light.cs" />
      <Compile Include="Assets\Scripts\Components\Mouse\MouseSettings.cs" />
      <Compile Include="Assets\Scripts\Servidor\Controlador\Controller.cs" />
@@ -64,6 +66,7 @@
      <Compile Include="Assets\Scripts\TemplateGUI.cs" />
      <Compile Include="Assets\Scripts\Tuts\Main_Menu.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
