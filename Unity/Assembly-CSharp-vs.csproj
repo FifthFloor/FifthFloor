@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Camera_Test.cs" />
      <Compile Include="Assets\Scripts\Cliente\Controlador\Controlador.cs" />
      <Compile Include="Assets\Scripts\Cliente\GUI\Menu\CharacterChooser.cs" />
      <Compile Include="Assets\Scripts\Cliente\GUI\Menu\Menu.cs" />
@@ -59,10 +60,15 @@
      <Compile Include="Assets\Scripts\Components\Dices\Dices.cs" />
      <Compile Include="Assets\Scripts\Components\Light\Light.cs" />
      <Compile Include="Assets\Scripts\Components\Mouse\MouseSettings.cs" />
+     <Compile Include="Assets\Scripts\MainScreen.cs" />
+     <Compile Include="Assets\Scripts\Networking\ConnectedScreen.cs" />
+     <Compile Include="Assets\Scripts\PopUpSuggestion.cs" />
+     <Compile Include="Assets\Scripts\PopUps.cs" />
      <Compile Include="Assets\Scripts\Servidor\Controlador\Controller.cs" />
      <Compile Include="Assets\Scripts\Servidor\Mundo\Servidor.cs" />
      <Compile Include="Assets\Scripts\Servidor\Vista\VistaClientes.cs" />
      <Compile Include="Assets\Scripts\Servidor\Vista\Vista_.cs" />
+     <Compile Include="Assets\Scripts\Suggestion.cs" />
      <Compile Include="Assets\Scripts\TemplateGUI.cs" />
      <Compile Include="Assets\Scripts\Tuts\Main_Menu.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
@@ -87,5 +93,6 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
+  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain" /><VersionControlPolicy inheritsSet="Mono" /><XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/xml" /><ChangeLogPolicy inheritsSet="Mono" /></Policies></Properties></MonoDevelop></ProjectExtensions>
+
 </Project>

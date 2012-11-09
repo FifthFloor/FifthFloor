@@ -40,24 +40,38 @@ public class Camera_Dices : MonoBehaviour
 	void OnGUI ()
 	{
 		GUI.skin = mySkin;
-				
+	  	
+		MouseLook mouse = (MouseLook) GetComponent(typeof(MouseLook));
+			mouse.enabled = false;
 		if (GUILayout.Button ("Blue Spawn")) {
 			searchTarget ("Blue Spawn", "Blue_spawnPoint");
+			
+			mouse.enabled = true;
 		}
 		if (GUILayout.Button ("Green Spawn")) {
 			searchTarget ("Green Spawn", "Green_spawnPoint");
+			
+			mouse.enabled = true;
 		}
 		if (GUILayout.Button ("Red Spawn")) {
 			searchTarget ("Red Spawn", "Red_spawnPoint");
+			
+			mouse.enabled = true;
 		}
 		if (GUILayout.Button ("Purple Spawn")) {
 			searchTarget ("Purple Spawn", "Purple_spawnPoint");
+			
+			mouse.enabled = true;
 		}
 		if (GUILayout.Button ("Yellow Spawn")) {
 			searchTarget ("Yellow Spawn", "yellow_spawnPoint");
+			
+			mouse.enabled = true;
 		}
 		if (GUILayout.Button ("White Spawn")) {
 			searchTarget ("White Spawn", "White_spawnPoint");
+			
+			mouse.enabled = true;
 		}
 		if (GUILayout.Button ("Ver Dados")) {
 			searchTarget ("Vista_Dados", null);
@@ -66,6 +80,30 @@ public class Camera_Dices : MonoBehaviour
 			foreach (Dices die in d) {
 				die.Rotate ();
 			}
+
+		}
+		if(GUILayout.Button("Test Suggestion")){
+			
+			mouse.enabled = false;
+			searchTarget ("SuggestionPoints", "Suggestion_Dungeon");
+			Suggestion s = (Suggestion)FindObjectOfType(typeof(Suggestion));
+			s.show();
+
+		}
+		if (GUILayout.Button ("Change Camera")) {
+			//searchTarget ("Character_camera", "White_spawnPoint");
+			Camera[] test =(Camera[]) FindObjectsOfType(typeof(Camera));
+			foreach(Camera c in test)
+			{
+				if(c.name == "Camera_Character")
+				{
+				camera.enabled = false;
+				c.enabled = true;
+				}
+			}
+			
+			
+			
 		}
 	}
 
